@@ -1,8 +1,7 @@
 import landingImage from "../assets/landing.png";
 import appDownloadImage from "../assets/appDownload.png";
-
+import SearchBar, { SearchForm } from "../components/search-bar";
 import { useNavigate } from "react-router-dom";
-import SearchBar from "@/components/search-bar";
 
 const HomePage = () => {
   const navigate = useNavigate();
